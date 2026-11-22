@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وقودي | WAQOUDI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>⛽ وَقُودِي</h1>
+        <nav>
+            <a href="#">الرئيسية</a>
+            <a href="#">المحطات</a>
+            <a href="#">عن المشروع</a>
+            <a href="#">تسجيل الدخول</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>اعرف أين يتوفر الوقود</h2>
+            <p>ابحث عن محطات الوقود واعرف حالة توفر البنزين والديزل بسهولة.</p>
+            <input type="text" id="search"
+                placeholder="اكتب اسم المحطة أو المنطقة">
+            <button onclick="searchStation()">ابحث الآن</button>
+        </section>
+
+        <section class="stations">
+            <h2>المحطات</h2>
+            <div id="stationList">
+                <p>مرحباً بك في نظام وقودي.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>WAQOUDI © 2026 - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
